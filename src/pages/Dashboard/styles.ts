@@ -59,7 +59,7 @@ export const Repositories = styled.div`
     align-items: center;
 		transition: transform 0.2s;
 
-		//toda vez que a for prescidido de outro a
+		//toda vez que a for prescidido de outra tag a
 		& + a {
 			margin-top: 16px;
 		}

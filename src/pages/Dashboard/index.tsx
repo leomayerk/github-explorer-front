@@ -37,7 +37,7 @@ const Dashboard: React.FC = () => {
 		event.preventDefault();
 
 		if (!newRepo) {
-			return setInputError('Digite o autor/nome do repositório')
+			return setInputError('Digite o autor/nome do repositório');
 		}
 
 		try {
